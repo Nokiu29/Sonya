@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Твiй шлях</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="header-left">
+        <div class="logo">Твiй шлях</div>
+       <a href="index.html"><button class="btn menu-btn">Головна</button></a> 
+       <a href="info.html"><button class="btn menu-btn" >Аналіз отриманих результатів</button></a> 
+      </div>
+      <div class="header-right">
+        <a href="user.html"><button class="btn icon-btn">
+          <img src="img/photo_2025-05-05_18-53-26.jpg" alt="Аватар">
+          <span>Особистий кабінет</span>
+        </button></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- О сайте -->
+    <section class="info-block" data-aos="fade-up">
+      <h1>Мета сайту</h1>
+      <p>
+        <strong>"Твій шлях"</strong> — це платформа, яка допомагає молоді знайти свій професійний напрям. Просто обери сферу, яка тобі ближча, — і дізнайся, які спеціальності підходять саме тобі!
+      </p>
+    </section>
+
+    <!-- Відео -->
+    <section class="info-block" data-aos="fade-up">
+      <h2>Пропонуємо переглянути відео</h2>
+      <div class="video-gallery">
+        <video controls>
+          <source src="video/NOHUB.mp4" type="video/mp4" />
+        </video>
+        <video controls>
+          <source src="video/Який напрям в IT обрати.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </section>
+
+    <!-- Чому це важливо -->
+    <section class="info-block" data-aos="fade-up">
+      <h2>Чому важливо обирати професію свідомо?</h2>
+      <p>
+        Правильний вибір професії — це інвестиція у власне майбутнє. Це шлях до реалізації, стабільності та задоволення від роботи.
+      </p>
+      <ul>
+        <li>Працюй із задоволенням — і робота не буде тягарем</li>
+        <li>Розвиток — ключ до успіху</li>
+        <li>Пізнай себе — розкрий потенціал</li>
+        <li>Гнучкість — головна навичка XXI століття</li>
+      </ul>
+    </section>
+
+    <!-- Популярні напрямки -->
+    <section class="cards-section" data-aos="fade-up">
+      <h2>Популярні напрямки серед молоді</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Технології</h3>
+          <p>Програмування, інженерія, кібербезпека — професії майбутнього вже тут.</p>
+        </div>
+        <div class="card">
+          <h3>Мистецтво</h3>
+          <p>Творчі професії для тих, хто мислить візуально і нестандартно.</p>
+        </div>
+        <div class="card">
+          <h3>Люди</h3>
+          <p>Соціальні науки, педагогіка, психологія — все про взаємодію з людьми.</p>
+        </div>
+        <div class="card">
+          <h3>Наука</h3>
+          <p>Аналітика, дослідження, відкриття — для тих, хто прагне пізнати більше.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Тест: вибір напряму -->
+    <section class="info-block" data-aos="fade-up">
+      <h2>Обери, що тобі ближче</h2>
+      <form>
+        <input type="radio" name="choice" id="tech">
+        <label for="tech">Технології, комп'ютери, логіка</label>
+
+        <input type="radio" name="choice" id="art">
+        <label for="art">Мистецтво, дизайн, креатив</label>
+
+        <input type="radio" name="choice" id="people">
+        <label for="people">Спілкування, робота з людьми</label>
+
+        <input type="radio" name="choice" id="science">
+        <label for="science">Наука, дослідження, аналітика</label>
+
+        <div class="result result-tech">
+          Рекомендуємо спеціальність: Програмна інженерія, Компʼютерні науки або Кібербезпека.
+        </div>
+        <div class="result result-art">
+          Рекомендуємо спеціальність: Графічний дизайн, Анімація або Медіакомунікації.
+        </div>
+        <div class="result result-people">
+          Рекомендуємо спеціальність: Психологія, Соціологія, Педагогіка або HR.
+        </div>
+        <div class="result result-science">
+          Рекомендуємо спеціальність: Біотехнології, Математика, Фізика або Медицина.
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 </p>
+    </div>
+  </footer>
+</body>
+</html>
